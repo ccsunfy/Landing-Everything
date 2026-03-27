@@ -1,0 +1,32 @@
+
+env:
+  num_agent_per_scene: 100
+  max_episode_steps: 512
+  dynamics_kwargs:
+    dt: 0.01
+    ctrl_dt: 0.03
+    comm_delay: 0.06
+    ctrl_delay: True
+    action_type: "bodyrate"
+
+  scene_kwargs:
+    path: VisFly/datasets/spy_datasets/configs/garage_empty
+  visual: False
+  device: cpu
+  requires_grad: True
+  tensor_output: True
+
+eval_env:
+  num_agent_per_scene: 4
+  visual: False
+  max_episode_steps: 256
+  tensor_output: True
+  sensor_kwargs: []
+  scene_kwargs:
+    path: VisFly/datasets/spy_datasets/configs/garage_empty
+    render_settings:
+      mode: fix
+      view: custom
+      resolution: [1080,1920]
+      position: [[-2,0,2], [1., 0., 0]]
+      trajectory: False

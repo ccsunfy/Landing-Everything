@@ -1,0 +1,44 @@
+algorithm:
+  policy: MultiInputPolicy
+  policy_kwargs:
+    features_extractor_class: StateImageExtractor
+    features_extractor_kwargs:
+      net_arch:
+        state:
+          layer: [192]
+        semantic:
+          layer: [256, 256]
+    net_arch: [256, 256]
+    activation_fn: relu
+    optimizer_kwargs:
+      weight_decay: 0.00001
+    share_features_extractor: False
+
+  learning_rate: 0.0001
+  # buffer_size: 300000
+  buffer_size: 1000000
+  # learning_starts: 10000
+  learning_starts: 100000
+  # batch_size: 512
+  batch_size: 1024
+  tau: 0.005
+  gamma: 0.99
+  # train_freq: 1
+  train_freq: 100
+  # gradient_steps: 1
+  gradient_steps: 100
+  ent_coef: auto
+  target_update_interval: 1
+  device: cuda
+  verbose: 1
+
+learn:
+  total_timesteps: 20000000
+  log_interval: 50
+
+test:
+  is_fig: True
+  is_fig_save: True
+  is_video: True
+  is_video_save: True
+  render_kwargs: {}

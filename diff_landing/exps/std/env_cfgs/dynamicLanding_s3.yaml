@@ -1,0 +1,38 @@
+env:
+  num_agent_per_scene: 100
+  num_scene: 1
+  max_episode_steps: 500
+  sensor_kwargs:
+    - sensor_type: SEMANTIC
+      uuid: semantic
+      resolution: [48, 64]
+      position: [0, 0.0, -0.03]
+      orientation: [-np.pi / 2, 0, 0]
+  scene_kwargs:
+    obj_settings: {"path": "platform_s3",}
+  dynamics_kwargs:
+    dt: 0.01
+    ctrl_dt: 0.03
+    comm_delay: 0.12
+    ctrl_delay: True
+    action_type: "bodyrate"
+  visual: True
+  device: cpu
+  requires_grad: True
+  tensor_output: True
+
+eval_env:
+  num_agent_per_scene: 1
+  num_scene: 1
+  max_episode_steps: 500
+  tensor_output: True
+  scene_kwargs:
+    obj_settings: {"path": "platform_s3",}
+    render_settings:
+      mode: fix
+      view: custom
+      resolution: [1080, 1920]
+      position: [[0.5, -4.7, 5.0], [2.5, -2.8, 3.5]]
+      axes: False
+      line_width: 5.5
+      trajectory: True

@@ -1,0 +1,57 @@
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+*.eps
+*.pdf
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+*.pt
+*.pth
+*.onnx
+*.engine
+
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.tfevents.*
+*.bag
+*.zip
+
+# VisFly 
+VisFly/datasets/
+VisFly/segment-anything-2/
+
+# exps/std: only upload landing-related parts
+diff_landing/exps/std/saved/
+diff_landing/exps/std/vary_v/
+diff_landing/exps/std/*
+!diff_landing/exps/std/alg_cfgs/
+!diff_landing/exps/std/env_cfgs/
+!diff_landing/exps/std/evaluate_landing.py
+!diff_landing/exps/std/plot_dynamic_landing_3d.py
+!diff_landing/exps/std/bag_sim_real_compare.py
+
+diff_landing/exps/std/alg_cfgs/*
+!diff_landing/exps/std/alg_cfgs/landingVisual/
+!diff_landing/exps/std/alg_cfgs/landingVisual/**
+!diff_landing/exps/std/alg_cfgs/landingVisual2Image/
+!diff_landing/exps/std/alg_cfgs/landingVisual2Image/**
+!diff_landing/exps/std/alg_cfgs/dynamicLanding/
+!diff_landing/exps/std/alg_cfgs/dynamicLanding/**
+
+diff_landing/exps/std/env_cfgs/*
+!diff_landing/exps/std/env_cfgs/landing*.yaml
+!diff_landing/exps/std/env_cfgs/dynamicLanding*.yaml
