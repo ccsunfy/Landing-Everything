@@ -1,0 +1,181 @@
+[33mcommit a046bc918af3f17e6ac718f2a2716b82dd472bec[m[33m ([m[1;36mHEAD -> [m[1;32mbeta[m[33m, [m[1;31morigin/beta[m[33m)[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Wed Jul 23 19:50:41 2025 +0800
+
+    more dynamic object
+
+[33mcommit 8ae93b65a76a4261235d958945a6c02fbea79423[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Tue Jul 22 16:36:49 2025 +0800
+
+    add random obj mgrs
+
+[33mcommit df95fc50cacddd4b7b92ae0b132f8552bd5cc927[m
+Merge: 231483a 9bfe0c5
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jul 11 16:34:26 2025 +0800
+
+    Merge branch 'beta' of https://github.com/SJTU-ViSYS-team/VisFly into beta
+
+[33mcommit 231483a06467fc0a37278bcdb77e0001fb6d4be9[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jul 11 16:32:26 2025 +0800
+
+    update datasets, add flexiable extractor
+
+[33mcommit 9bfe0c556abcf939f80bdd27ff28f56a160e8de8[m
+Author: Fanxing-LI <148536012+Fanxing-LI@users.noreply.github.com>
+Date:   Mon Jul 7 20:40:30 2025 +0800
+
+    Update readme.md
+
+[33mcommit fb4e67ee7de354ec7561a3bbd8c4f07291bf44bc[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Mon Jul 7 20:32:18 2025 +0800
+
+    upgrade dynamic objects collision detection
+
+[33mcommit 11b6fdff792ed901c544e6b08052b9bb7a5c5ee1[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Sun Jul 6 17:12:52 2025 +0800
+
+    update object collision detect
+
+[33mcommit bc92196d55ac241df9d62b7e3ece7bef280f4171[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jul 4 19:05:47 2025 +0800
+
+    update dynamic objects, but detect distance in droneEnv
+
+[33mcommit 9175c8bac09f6cd996555e788289d73f561fb500[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jun 20 20:45:39 2025 +0800
+
+    support dict reward structure
+
+[33mcommit 3fcc8003330c61947ed98f1db63ce7e2032e00ab[m
+Merge: 93c8a0d 477e932
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jun 20 15:38:38 2025 +0800
+
+    Merge branch 'main' of https://github.com/Wangshengyang2004/VisFly into Wangshengyang2004-main
+
+[33mcommit 93c8a0dd8eee934ed5c154f344ab4e2a659d0626[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jun 20 11:19:38 2025 +0800
+
+    align bodyrate response between sim2real, update drag randomization in dynamics
+
+[33mcommit 477e932379e53dab4b542c88d53064575ac075e7[m
+Author: Shengyang Wang <sw592@duke.edu>
+Date:   Tue Jun 17 20:35:45 2025 +0800
+
+    Base on the latest version of VisFly, I fixed the following issues:
+    1. miscallaneous bugs such as tuple unpacking, etc.
+    2. ppo policy halt when running examples like: examples/landing/rl.py
+        Where some of the ppo class is not compatible with the latest version of VisFly.
+    3. Mismatched cpu and cuda tensors.
+
+[33mcommit 9e59ba83f6382f5cc03c32300819708d3cf378f7[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Thu Jun 12 16:03:47 2025 +0800
+
+    debug weight character in example.json
+
+[33mcommit d388ef5a04ccc113667f2c0bf3d806d9576d0ea3[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Thu Jun 12 14:46:08 2025 +0800
+
+    first update obj manager, optimize dream interface
+
+[33mcommit 565ff943ef109649102e091f1a297058ea98fab7[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Thu May 1 18:18:09 2025 +0800
+
+    align sim 2 real, reduce sim2real gap, update drone config
+
+[33mcommit 088e74e6c3aeac322530feb1ac5e2c8e579bd1df[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Tue Mar 18 18:34:36 2025 +0800
+
+    add dreamer components
+
+[33mcommit ead7c4c8478670c4d324afa05e80089e339a22eb[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Feb 21 01:13:52 2025 +0800
+
+    dreamer unstable converage
+
+[33mcommit a01134db6a9994106194c5fb3fe43acbd0e1a195[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Jan 3 19:22:40 2025 +0800
+
+    dreamer qg finetuned
+
+[33mcommit 3d96bf84f54e5d55cb5f917b1cb23e68b7ebbef4[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Tue Dec 10 15:50:37 2024 +0800
+
+    add reset_env_by_id function
+
+[33mcommit c67e61963f55ceb6d982b836c546fca2fc40e9d9[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Wed Dec 4 14:01:46 2024 +0800
+
+    fix subimage saving path, update readme, optimize input data structure
+
+[33mcommit 8b49f94493841f8c56b33a5cb818763cf2b175c9[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Sat Nov 30 22:09:25 2024 +0800
+
+    fix recent issues, update differentiable example, optimize structure
+
+[33mcommit d251d8c0d02b302dbb5915766232e8cc9dfdfe7b[m
+Merge: 9fde5eb f787750
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Sun Sep 29 13:49:26 2024 +0800
+
+    Merge branch 'main' of https://github.com/SJTU-ViSYS-team/VisFly into main
+
+[33mcommit 9fde5ebae4779634515ed92fe5f64a919d0874b2[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Wed Sep 18 12:36:03 2024 +0800
+
+    update examples import path
+    reorganize HoveEnv and NavigationEnv
+
+[33mcommit f787750a0fd6050c83c06c3f06191ce5170ea306[m
+Author: Fanxing-LI <148536012+Fanxing-LI@users.noreply.github.com>
+Date:   Wed Sep 25 15:34:40 2024 +0800
+
+    Update readme.md
+
+[33mcommit ada1e0fa168a35127938116343936f1bcbc1feb5[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Sep 13 18:49:22 2024 +0800
+
+    update relative path
+
+[33mcommit 446f4a418bcadcf1f665369bea8ca1bed2ab9803[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Fri Sep 13 16:32:15 2024 +0800
+
+    fix multi-input policy
+
+[33mcommit 63ec43870f3be906d90fe8ef25908a1cc4ed716d[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Tue Sep 10 16:00:22 2024 +0800
+
+    update readme.md
+
+[33mcommit 7b0a4534b57051fd9b00ab4e561496f9abaacab1[m
+Author: Fanxing-LI <li.fanxing@outlook.com>
+Date:   Tue Sep 10 13:15:10 2024 +0800
+
+    initialization
+
+[33mcommit a83250a8f19855da3ff82bdf99deec7f38b8fef4[m
+Author: Fanxing-LI <148536012+Fanxing-LI@users.noreply.github.com>
+Date:   Thu Sep 5 14:00:08 2024 +0800
+
+    Initial commit

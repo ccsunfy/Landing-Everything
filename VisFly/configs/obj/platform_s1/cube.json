@@ -1,0 +1,53 @@
+{
+  "objects": [
+    {
+      "name": "object_target",
+      "model_path": "platform_cube",
+      "initial": {
+        "class": "Uniform",
+        "kwargs": {
+          "position": {
+            "mean": [2.0, 0.0, 0.0],
+            "half": [0.15, 0.15, 0.0]
+          },
+          "orientation": {
+            "mean": [0, 0, 0],
+            "half": [0, 0, 0]
+          }
+        }
+      },
+      "velocity": {
+        "class": "Uniform",
+        "kwargs": {
+          "mean": 0.35,
+          "half": 0.10
+        }
+      },
+      "angular_velocity": 0,
+      "path": {
+        "class": "cubic",
+        "kwargs": {
+          "points": {
+            "class": "Uniform",
+            "kwargs": {
+              "position": {
+                "mean": [
+                  [1.9, 0.0, 0.1],
+                  [2.3, 0.3, 0.1],
+                  [2.2, -0.3, 0.1],
+                  [1.7, -0.1, 0.1]
+                ],
+                "half": [
+                  [0.20, 0.20, 0.00],
+                  [0.20, 0.20, 0.00],
+                  [0.20, 0.20, 0.00],
+                  [0.20, 0.20, 0.00]
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
