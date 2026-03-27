@@ -44,6 +44,7 @@ diff_landing/exps/std/*
 !diff_landing/exps/std/plot_dynamic_landing_3d.py
 !diff_landing/exps/std/bag_sim_real_compare.py
 !diff_landing/exps/std/run.py
+!diff_landing/exps/std/train_dynamic_curriculum.sh
 
 diff_landing/exps/std/alg_cfgs/*
 !diff_landing/exps/std/alg_cfgs/landingVisual/
