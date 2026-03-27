@@ -1,0 +1,3 @@
+[submodule "VisFly/datasets/visfly-beta"]
+	path = VisFly/datasets/visfly-beta
+	url = https://huggingface.co/datasets/LiFanxing/visfly-beta
