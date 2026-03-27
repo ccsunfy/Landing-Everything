@@ -1,0 +1,92 @@
+{
+    "stage_instance": {
+        "template_name": "stages/garage_v1"
+    },
+    "default_lighting": "garage_v1_0",
+    "object_instances": [
+        {
+            "template_name": "gate",
+            "translation": [
+                -4,
+                1,
+                -4
+            ],
+            "rotation": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "non_uniform_scale": [1,1,1],
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "gate",
+            "translation": [
+                0,
+                2,
+                -8
+            ],
+            "rotation": [
+                0.707,
+                0,
+                0.707,
+                0
+            ],
+            "non_uniform_scale": [1,1,1],
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "gate",
+            "translation": [
+                4,
+                1,
+                -5
+            ],
+            "rotation": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "non_uniform_scale": [1,1,1],
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "gate",
+            "translation": [
+                1,
+                1,
+                -1
+            ],
+            "rotation": [
+                0.707,
+                0,
+                0.707,
+                0
+            ],
+            "non_uniform_scale": [1,1,1],
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        }
+    ],
+    "articulated_object_instances": [],
+    "user_custom": {
+        "bound": [
+            [
+                0,
+                -7,
+                0
+            ],
+            [
+                18,
+                7,
+                5.0
+            ]
+        ]
+    },
+    "navmesh_instance": "empty_stage_navmesh"
+}

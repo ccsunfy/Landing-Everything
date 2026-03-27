@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../self_define_objects/landing_cylinder_z20cm.glb",
+  "collision_asset": "../../self_define_objects/landing_cylinder_z20cm.glb",
+  "mass": 1,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 65
+}

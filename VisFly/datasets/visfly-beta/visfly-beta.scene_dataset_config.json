@@ -1,0 +1,67 @@
+{
+    "stages": {
+        "paths": {
+            ".json": [
+                "configs/stages"
+            ]
+        }
+    },
+    "objects": {
+        "paths": {
+            ".json": [
+                "configs/objects",
+                "configs/objects/objects2",
+                "configs/agents",
+                "configs/objects/pillar",
+                "configs/objects/test",
+                "configs/objects/human",
+                "configs/objects/platform_cube"
+            ]
+        }
+    },
+    "light_setups": {
+        "default_attributes": {
+            "positive_intensity_scale": 2.5,
+            "negative_intensity_scale": 0.1
+        },
+        "paths": {
+            ".json": [
+                "configs/lighting"
+            ]
+        }
+    },
+    "scene_instances": {
+        "default_attributes": {
+            "semantic_scene_instance": "replicaCAD_ssd_map"
+        },
+        "paths": {
+            ".json": [
+                "configs/scenes",
+                "configs/scenes/garage_empty",
+                "configs/scenes/garage_simple",
+                "configs/scenes/garage_test",
+                "configs/scenes/garage_simple_l",
+                "configs/scenes/garage_simple_h",
+                "configs/scenes/garage_simple_l_long",
+                "configs/scenes/garage_landing",
+                "configs/scenes/garage_crossing",
+                "configs/scenes/garage_simple_l_medium",
+                "configs/scenes/garage_racing",
+                "configs/scenes/garage_pillar",
+                "configs/scenes/garage",
+                "configs/scenes/box10_wall_pillar",
+                "configs/scenes/box10_wall_pillar",
+                "configs/scenes/box10_wall_empty",
+                "configs/scenes/garage_garage",
+                "configs/scenes/box10_wall_empty",
+                "configs/scenes/apriltag",
+                "configs/scenes/landing_cube",
+                "configs/scenes/landing_cylinder",
+                "configs/scenes/landing_random_platform"
+            ]
+        }
+    },
+    "semantic_scene_descriptor_instances": {
+        "replicaCAD_ssd_map": "configs/ssd/replicaCAD_semantic_lexicon.json"
+    }
+}

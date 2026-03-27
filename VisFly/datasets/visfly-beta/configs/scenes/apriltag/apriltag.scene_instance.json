@@ -1,0 +1,41 @@
+{
+    "stage_instance": {
+        "template_name": "stages/songjiang"
+    },
+    "default_lighting": "lighting/garage_v1_0",
+    "object_instances": [
+        {
+            "template_name": "apriltag_50cm",
+            "translation": [
+                0.0,
+                0.02,
+                -2.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        }
+    ],
+    "articulated_object_instances": [],
+    "user_custom": {
+        "bound": [
+            [
+                0,
+                -7,
+                0
+            ],
+            [
+                18,
+                7,
+                5.0
+            ]
+        ]
+    },
+    "navmesh_instance": "empty_stage_navmesh"
+}

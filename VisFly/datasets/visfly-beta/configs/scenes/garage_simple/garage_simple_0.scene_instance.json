@@ -1,0 +1,1928 @@
+{
+    "stage_instance": {
+        "template_name": "stages/garage_v1"
+    },
+    "default_lighting": "lighting/garage_v1_0",
+    "object_instances": [
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.750642251491612,
+                1.481380612514669,
+                -7.679929697759042
+            ],
+            "rotation": [
+                -0.001058486790069491,
+                0.21187711432791922,
+                -0.9221556673141935,
+                -0.32362925280342586
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -3.8600428384210144,
+                2.0712933928090154,
+                -8.97302250241153
+            ],
+            "rotation": [
+                0.4128128630761015,
+                -0.7084096549112676,
+                0.3205088236354221,
+                0.4743578763752623
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -1.850732567159893,
+                1.5195740521981462,
+                -9.777855554077846
+            ],
+            "rotation": [
+                -0.5692371890471529,
+                -0.624426972030231,
+                0.49179005388194924,
+                0.21024395855682113
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.2988166758508424,
+                2.270540498199913,
+                -7.522564608492527
+            ],
+            "rotation": [
+                0.2754646254885863,
+                -0.03719973613490585,
+                -0.8645552381676446,
+                -0.4186641373378112
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.9602336576677786,
+                0.13332020094526342,
+                -8.157762151104702
+            ],
+            "rotation": [
+                0.3801569980612324,
+                0.46562035795439943,
+                0.7912551280797189,
+                -0.11222148355389366
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.74644776739901,
+                3.699985137802041,
+                -6.221896999374872
+            ],
+            "rotation": [
+                -0.21479918685664057,
+                0.05882075608764854,
+                0.05738370248446275,
+                0.973195015743596
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.620832936121989,
+                3.010332075077283,
+                -3.1465459251115044
+            ],
+            "rotation": [
+                -0.7646151820100029,
+                -0.3099088230671319,
+                0.3423090695451916,
+                0.4496049885533528
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.500161322501869,
+                0.22393245495251124,
+                -8.539435990324174
+            ],
+            "rotation": [
+                0.18712497029669564,
+                0.8823822487531163,
+                0.16189036941858345,
+                -0.40022158970546406
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -2.899489046041605,
+                2.5507513296112734,
+                -6.191237204948571
+            ],
+            "rotation": [
+                -0.6839681749840897,
+                0.4441251931580915,
+                -0.4337497433711467,
+                0.3831468498326536
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -6.558456334014062,
+                0.46900084667027553,
+                -9.25355180386309
+            ],
+            "rotation": [
+                -0.5184715055568024,
+                0.7562239038871169,
+                0.39833079836084,
+                0.025402365886013904
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -4.18136508046522,
+                0.03936074796201883,
+                -8.677865842209016
+            ],
+            "rotation": [
+                0.0886910689197843,
+                -0.2652588285139502,
+                -0.2560826638401603,
+                -0.9253071476379074
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                3.856672973066132,
+                0.8928657299445688,
+                -7.331169377610003
+            ],
+            "rotation": [
+                -0.4423290324497672,
+                0.015274715814804529,
+                0.8786271990044056,
+                -0.17923714815434402
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -1.22331624010409,
+                2.3774000225471252,
+                -3.886879865023996
+            ],
+            "rotation": [
+                -0.14916963724219665,
+                0.3904788834562274,
+                0.8949936056100706,
+                -0.1557597727813407
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                5.7552168354265,
+                0.5881915462212528,
+                -8.084148491042757
+            ],
+            "rotation": [
+                0.35821390775784384,
+                -0.8072394622087318,
+                0.41803932263654475,
+                -0.2128153464188883
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.6543138627817893,
+                3.407787011447924,
+                -10.861029919261952
+            ],
+            "rotation": [
+                0.020285976326902995,
+                0.19134989710724115,
+                -0.03982486322967531,
+                0.9805037869943442
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                0.581011064105672,
+                3.098890789752858,
+                -9.505043287352654
+            ],
+            "rotation": [
+                -0.03609999278270545,
+                -0.15395205112252386,
+                -0.37075150935675766,
+                -0.9151715002041654
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -0.3778304454102077,
+                0.022025920240619,
+                -5.098853737474049
+            ],
+            "rotation": [
+                0.731204760090993,
+                -0.29640701692179194,
+                -0.5043056760531103,
+                0.3509391175694342
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -6.97691183507542,
+                2.7558496443286358,
+                -3.767396027138192
+            ],
+            "rotation": [
+                -0.439493810730168,
+                0.118005294486061,
+                0.2441654595250196,
+                -0.8563312263242939
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                3.474541306111192,
+                3.817624341946981,
+                -7.755173864880827
+            ],
+            "rotation": [
+                0.36652511281674316,
+                0.49067055025208056,
+                0.2621014856477431,
+                -0.7457912335306979
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -2.1253192941605032,
+                3.519937729998595,
+                -10.992370567026946
+            ],
+            "rotation": [
+                -0.22225708955435033,
+                -0.49762718759548386,
+                -0.659864944205053,
+                -0.5172496725159919
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                3.788124269469489,
+                1.5519830510019599,
+                -8.519049061071417
+            ],
+            "rotation": [
+                -0.27015439946230685,
+                0.3283900553098073,
+                -0.9046427491776182,
+                -0.028250104161630787
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                1.3117631823616627,
+                2.541778395376124,
+                -4.99093828225357
+            ],
+            "rotation": [
+                0.34839147428923456,
+                -0.5626244420859468,
+                -0.08903606871244156,
+                0.7444123160441963
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                1.8551476246643546,
+                2.161944431494357,
+                -9.032984471532206
+            ],
+            "rotation": [
+                -0.30033022964004935,
+                0.7319240967899707,
+                0.43120395639980036,
+                -0.4337649336768705
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.908349756221654,
+                1.9826484441106405,
+                -4.278518647393926
+            ],
+            "rotation": [
+                -0.10457035395989721,
+                -0.6436742634762976,
+                0.30162198940010937,
+                0.69553767627733
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.18990501771577328,
+                3.7335909436254187,
+                -8.952482420627778
+            ],
+            "rotation": [
+                0.08132023266347296,
+                0.6135814084697876,
+                -0.5773352046553426,
+                0.5325306905760119
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -1.7549134436562195,
+                1.5210876274080896,
+                -7.392774413283993
+            ],
+            "rotation": [
+                -0.46966368350674936,
+                -0.8650290081084478,
+                0.16318915469757303,
+                -0.06715757079345831
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -1.1358189236411977,
+                2.7090675536167175,
+                -5.236066136003229
+            ],
+            "rotation": [
+                0.428537771219474,
+                -0.28726371869163825,
+                0.8562902600865817,
+                -0.024534160726449417
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -3.5474499241004285,
+                1.6285335428009757,
+                -6.187570836211003
+            ],
+            "rotation": [
+                -0.1918741194773941,
+                -0.13700925064704284,
+                -0.008865547501471957,
+                -0.9717685884918331
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.6688148565164864,
+                2.887712570207068,
+                -7.735429276145662
+            ],
+            "rotation": [
+                0.48809152782902676,
+                -0.42714258634010177,
+                0.7297193768115041,
+                0.2163920111788906
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -6.712848136807223,
+                0.06460010071310851,
+                -9.36016795967906
+            ],
+            "rotation": [
+                0.6989144004266152,
+                0.3033775351794705,
+                -0.3598285005980059,
+                -0.5385203637580707
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -1.5406782046437826,
+                0.7001362085699658,
+                -10.240784579241964
+            ],
+            "rotation": [
+                0.33006825279593127,
+                0.26351998849615493,
+                -0.5426631393959548,
+                -0.7260364187147599
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -2.308850061261424,
+                0.2843063918096651,
+                -7.612227837636476
+            ],
+            "rotation": [
+                0.16777532632902364,
+                0.9651209011564039,
+                -0.16901560227545975,
+                0.10875114810292386
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -4.018839725194429,
+                3.6305059263824226,
+                -5.884495217970037
+            ],
+            "rotation": [
+                -0.402592420368357,
+                0.9083974681968882,
+                0.08969232853225051,
+                0.06847385660158585
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                4.7774427533666906,
+                2.581367493664556,
+                -5.8153424725349545
+            ],
+            "rotation": [
+                0.3848068630401941,
+                0.8226628593301459,
+                -0.4182232473646856,
+                0.015453588568699606
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -5.416981651024237,
+                2.26694700481476,
+                -6.71525130794569
+            ],
+            "rotation": [
+                -0.7334940497391791,
+                0.3096405114871024,
+                0.6044414872967283,
+                0.027563038253129318
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.8445353464718668,
+                3.536986536592892,
+                -4.623771677562245
+            ],
+            "rotation": [
+                -0.14786750604066426,
+                0.7930344332369892,
+                -0.5309054396970831,
+                -0.259559246527355
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.6586901286119167,
+                3.8989630407535385,
+                -3.236677384925172
+            ],
+            "rotation": [
+                0.2488947524911584,
+                0.9293310077208377,
+                -0.27272216535815874,
+                -0.004230932910648092
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                1.4192276555825014,
+                1.6773105642156456,
+                -3.91069717161637
+            ],
+            "rotation": [
+                -0.10760415875078931,
+                -0.11574369031244863,
+                -0.9236042339214439,
+                0.3492562988047229
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -2.812132074214924,
+                3.758382634773137,
+                -6.993902472646594
+            ],
+            "rotation": [
+                -0.1640629894508688,
+                0.6116722790387527,
+                -0.6802075552993447,
+                0.3691314674498386
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -5.1189138301671395,
+                2.9996863519201598,
+                -5.061944480818019
+            ],
+            "rotation": [
+                -0.11122849736050035,
+                0.36251036449871116,
+                0.22377291780003628,
+                0.897853071646578
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -2.050807036854067,
+                2.05933733905932,
+                -7.520744008637006
+            ],
+            "rotation": [
+                0.2223047077200795,
+                -0.8591515702497081,
+                0.0029250433672198596,
+                -0.4609019856588283
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.13269477328289092,
+                2.9700414516272633,
+                -10.902385125950932
+            ],
+            "rotation": [
+                -0.9271700233661577,
+                -0.312078723782396,
+                -0.17410069507358025,
+                0.11247917988874995
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -0.43838185123636286,
+                1.6584126731822537,
+                -3.6349139233524674
+            ],
+            "rotation": [
+                -0.42742170594688633,
+                -0.3571339657973617,
+                0.8271607460239986,
+                0.07463990887135627
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -1.8214863587686132,
+                1.704328712400407,
+                -9.34454996166229
+            ],
+            "rotation": [
+                0.06401745160329196,
+                0.9841341411881722,
+                -0.16540101169506055,
+                0.0049257860580240115
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                4.949868492528834,
+                3.1724601101807273,
+                -5.205108417297448
+            ],
+            "rotation": [
+                0.7254682705309818,
+                -0.39023826678270634,
+                -0.23177063198316855,
+                -0.5173898508294671
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.5474089464034835,
+                1.8267909346457234,
+                -4.027829183063016
+            ],
+            "rotation": [
+                -0.11488151495572906,
+                -0.2136548846518369,
+                -0.43116483184461685,
+                0.8690516184705545
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -1.419878251547754,
+                2.2818291397701946,
+                -7.859687808124951
+            ],
+            "rotation": [
+                -0.9080011008804193,
+                0.347019068024542,
+                -0.22302817204121778,
+                -0.07328166007452303
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -6.613441481025177,
+                0.14686685980688852,
+                -8.915748148105873
+            ],
+            "rotation": [
+                -0.5594528011301056,
+                0.3412774213757643,
+                -0.7278520446487691,
+                0.2019249515720968
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.628359488673228,
+                1.3459787445863118,
+                -8.270899523463061
+            ],
+            "rotation": [
+                0.33681137181309495,
+                0.6928893694353477,
+                0.6275212118627851,
+                -0.11260350884021647
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.17152769831189119,
+                1.708021889030117,
+                -6.1502765678569356
+            ],
+            "rotation": [
+                0.42463951384630183,
+                -0.037027914189037316,
+                0.4459858660564357,
+                -0.7870240302106898
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.8927130877401979,
+                3.04693164343891,
+                -3.91940556948693
+            ],
+            "rotation": [
+                0.700623018457618,
+                0.6804194480618195,
+                -0.11000616883371178,
+                0.1845410618944037
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -5.443467118909146,
+                0.6618742952429959,
+                -9.355978336647661
+            ],
+            "rotation": [
+                0.22444037573282732,
+                -0.10710208834120147,
+                0.8780458540535889,
+                0.4088901302222448
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -3.0926660969092445,
+                2.9086099799562533,
+                -5.480383389514959
+            ],
+            "rotation": [
+                0.09446665797618704,
+                0.634055863933004,
+                0.7469208865479909,
+                -0.1765174245828027
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                1.5287742332816538,
+                0.010301845029670353,
+                -3.609148191328466
+            ],
+            "rotation": [
+                0.024000009318999756,
+                0.49825903054783455,
+                -0.853575380245625,
+                0.1502365077760952
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                0.29822881047778527,
+                0.9132879565345604,
+                -8.397114187368823
+            ],
+            "rotation": [
+                0.7516959770496142,
+                0.04267966761786309,
+                0.3565765331399973,
+                0.5531589103262414
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -4.535167975074149,
+                1.6781837389998122,
+                -5.845543669552115
+            ],
+            "rotation": [
+                -0.6807992432089011,
+                -0.6007107313051161,
+                0.4122785312985517,
+                -0.0754017265808235
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                2.992510112916266,
+                3.154659197265727,
+                -9.880087244687276
+            ],
+            "rotation": [
+                0.510672918815538,
+                -0.1770192759853388,
+                -0.8307811960060012,
+                -0.13296597414708575
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.13844589488594128,
+                0.8495022273483261,
+                -7.617744576592827
+            ],
+            "rotation": [
+                -0.26769920613897463,
+                -0.05245821183614246,
+                0.6993236044054785,
+                -0.6607055072911432
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -6.671139264665186,
+                1.784831664003486,
+                -9.249182822166915
+            ],
+            "rotation": [
+                -0.45114452781657366,
+                0.6464075929749671,
+                -0.4757144858514182,
+                0.39028395651959713
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.096918278959107,
+                0.7600055429326322,
+                -3.1354194108534887
+            ],
+            "rotation": [
+                -0.2486665611574548,
+                -0.9321647740979313,
+                0.19944947562797197,
+                0.1716207503911045
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.019336471776531,
+                3.7054197039968666,
+                -6.7488970521569716
+            ],
+            "rotation": [
+                -0.7192688428231514,
+                0.1691435308531816,
+                0.10776679390428222,
+                0.6651534528557718
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.65948737003689,
+                0.05823599013733283,
+                -7.580435134653926
+            ],
+            "rotation": [
+                0.7887829841609083,
+                0.25958109926851813,
+                0.384348386961658,
+                -0.40337993782627735
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.444006096380244,
+                2.4014100850278974,
+                -4.474351560125522
+            ],
+            "rotation": [
+                -0.027618341411326287,
+                0.26889988474833126,
+                -0.7171635552292,
+                0.6423445448130121
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.712384617358005,
+                0.7986737617800137,
+                -4.573921111118412
+            ],
+            "rotation": [
+                -0.5484811547897986,
+                -0.22067873867677487,
+                -0.6921257945491593,
+                -0.4140425118948191
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.026890496166034,
+                2.4651392665147545,
+                -6.158578434045606
+            ],
+            "rotation": [
+                0.5225500756531842,
+                0.8198249031253234,
+                -0.12234854284166193,
+                -0.19964814227767733
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -4.062702055414606,
+                2.503042230330812,
+                -5.762018821483973
+            ],
+            "rotation": [
+                -0.8264367672619379,
+                -0.20135162045344251,
+                0.026075412085720714,
+                0.5251474721856424
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.6817355172852455,
+                3.0589258240751693,
+                -7.123000968181464
+            ],
+            "rotation": [
+                -0.5360944901522748,
+                0.4223588365387901,
+                -0.36582996011901653,
+                -0.632759157267037
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.3308269234084937,
+                1.7285191741469395,
+                -9.23490116957825
+            ],
+            "rotation": [
+                0.6624489869306516,
+                -0.7333432037503319,
+                -0.14819967953872804,
+                0.03749586927077303
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.730982406765933,
+                1.3903809496075517,
+                -5.960973946561849
+            ],
+            "rotation": [
+                0.5807784605826437,
+                0.7475751395767157,
+                0.2769146059863031,
+                -0.16476070952007688
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                5.961621324836489,
+                2.500695245956135,
+                -6.346633791321222
+            ],
+            "rotation": [
+                0.5137642401016147,
+                -0.17800433340701963,
+                -0.4745334425081377,
+                -0.6922274010919454
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.43550840978145,
+                2.1134871046611448,
+                -9.936033126404034
+            ],
+            "rotation": [
+                0.04725710503572367,
+                0.6448795051387356,
+                -0.023098043071206182,
+                0.7624720783621802
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.31103389668731296,
+                1.2158554280767473,
+                -8.423101446408275
+            ],
+            "rotation": [
+                0.043510400835294984,
+                0.8736685594376685,
+                -0.04405864837430709,
+                0.48256494772485303
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.636693230554828,
+                3.8179736990823177,
+                -5.915049058239298
+            ],
+            "rotation": [
+                0.14011643394128084,
+                0.09649722760371811,
+                -0.3347903219089928,
+                -0.9268069434140251
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                4.604008498166783,
+                1.2138369549511272,
+                -6.9736267222175305
+            ],
+            "rotation": [
+                -0.2349615704597583,
+                -0.16259129256823132,
+                0.8117626736803569,
+                -0.5093117842809001
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.797242404501946,
+                0.26280845531839736,
+                -7.941627396819527
+            ],
+            "rotation": [
+                -0.23204195428514243,
+                -0.43405239686823605,
+                -0.6872319131227954,
+                0.5342914427632675
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                0.8875571038804573,
+                1.846150023152712,
+                -3.0970705475477613
+            ],
+            "rotation": [
+                -0.8695050802533526,
+                -0.32256662248364965,
+                -0.35027857884396857,
+                -0.13121206757059878
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                1.7357124015938732,
+                0.8981707132304084,
+                -4.37766899709798
+            ],
+            "rotation": [
+                -0.4701097875599928,
+                -0.5328037736325224,
+                0.4229849160419556,
+                0.5623172478630032
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.65259039539352,
+                2.038695888552213,
+                -4.240513138889895
+            ],
+            "rotation": [
+                0.18620878303773084,
+                0.7113629544242844,
+                -0.6379711470917871,
+                -0.2286522505263177
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.450057563968614,
+                1.5842614523740304,
+                -10.569935221886162
+            ],
+            "rotation": [
+                0.29939368834069396,
+                0.5452751467814172,
+                0.47902077972175483,
+                -0.619336359564834
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                1.2000938405358559,
+                0.6698807153739024,
+                -10.14919027584071
+            ],
+            "rotation": [
+                0.538576850094594,
+                -0.19187581788087,
+                -0.6508839756685912,
+                0.4994684146896389
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.7902246765848755,
+                0.3399138231341068,
+                -10.84182427299372
+            ],
+            "rotation": [
+                0.5299290631492051,
+                0.0783076248920932,
+                0.3583024459463902,
+                0.7646322391466365
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.6221356968728,
+                3.4746686163388656,
+                -8.176906526579439
+            ],
+            "rotation": [
+                0.6411658862614663,
+                0.6237069786823419,
+                -0.14720167704051018,
+                0.4221700810265389
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                5.245406374169091,
+                3.6850161119301585,
+                -6.7453547379142895
+            ],
+            "rotation": [
+                0.5964347255790051,
+                0.12210245105935842,
+                0.6003015485047992,
+                0.5186469516265704
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -6.087851428839786,
+                2.5705496324436585,
+                -5.118252684527801
+            ],
+            "rotation": [
+                0.15357446520282939,
+                0.763413663419516,
+                -0.5602085675019375,
+                -0.28245499294486914
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -2.235668863740621,
+                1.487135139302036,
+                -6.131021719169743
+            ],
+            "rotation": [
+                0.04046064110219946,
+                -0.3804917606988198,
+                0.4428120976216046,
+                -0.8108676851138327
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                4.190935104665368,
+                2.5412695090605464,
+                -5.165430709617684
+            ],
+            "rotation": [
+                0.5183154480128446,
+                -0.5113376707148172,
+                -0.6843315988887717,
+                -0.03966289981237667
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                5.6107520593190925,
+                2.438336159883414,
+                -5.766220509642455
+            ],
+            "rotation": [
+                0.19286575308672688,
+                -0.20080909856484092,
+                -0.5692092993256899,
+                -0.7736144264302618
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                4.473906561941459,
+                2.6874720425675944,
+                -3.9392959668319527
+            ],
+            "rotation": [
+                0.8233157182813323,
+                0.3792852054686696,
+                0.3725893401649446,
+                -0.19867346209027004
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -6.373781716978957,
+                1.6660840352353685,
+                -4.973982111040641
+            ],
+            "rotation": [
+                -0.4126548362793381,
+                0.5913411393777431,
+                0.5241902164141956,
+                0.4530521603417691
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.48453262448392564,
+                0.6498299176770574,
+                -8.579007681954778
+            ],
+            "rotation": [
+                -0.2816413845714407,
+                0.19187353266607912,
+                -0.9320452232240394,
+                -0.12310312678470627
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.7901805952395575,
+                0.8623693089852571,
+                -8.95529250700364
+            ],
+            "rotation": [
+                0.21605476548446945,
+                -0.339578523076598,
+                -0.4920405197877115,
+                -0.7719474670362005
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.08543607155736055,
+                1.2135190504392859,
+                -7.017649676683398
+            ],
+            "rotation": [
+                0.43593048036909016,
+                -0.4063610507118368,
+                0.5400076675193612,
+                0.5943290601761329
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.7337437567762048,
+                1.94246056065161,
+                -8.494273239141465
+            ],
+            "rotation": [
+                0.4621482445069195,
+                0.5808957062205279,
+                -0.5175478097670279,
+                0.4255859997686472
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -3.194782123114427,
+                1.9426455293465943,
+                -6.726801162624473
+            ],
+            "rotation": [
+                -0.09702152565055826,
+                0.37999261205655277,
+                -0.7118688857548007,
+                0.5826106142502854
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.976291399270485,
+                0.39749549016766395,
+                -6.975302401703334
+            ],
+            "rotation": [
+                -0.014896734915765862,
+                -0.15033286274663538,
+                -0.646293232305,
+                0.7479860797795679
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                2.6004315380543126,
+                3.0918409028946012,
+                -9.738840415171445
+            ],
+            "rotation": [
+                -0.27300049853827824,
+                -0.5443993343996618,
+                0.6933588478891596,
+                0.38516697750050427
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                5.546311189421173,
+                3.7549045447127534,
+                -5.673505435336067
+            ],
+            "rotation": [
+                -0.3173010808377599,
+                0.6696296813219021,
+                -0.6351083008118943,
+                -0.21806778815713604
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                4.512841021180046,
+                0.20249261522339346,
+                -4.5787295541801525
+            ],
+            "rotation": [
+                -0.3226649442433397,
+                -0.3475778041919155,
+                -0.3865037369153398,
+                0.7910068679474577
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.534946218143592,
+                1.9742388466926837,
+                -8.2245550777528
+            ],
+            "rotation": [
+                -0.18532152347216596,
+                -0.9576940868026805,
+                0.17818755544507206,
+                0.12933353828626362
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                5.025830733471719,
+                2.1618075699420722,
+                -5.297087912585335
+            ],
+            "rotation": [
+                0.6631961618794584,
+                -0.03412667863213992,
+                -0.06033737590210893,
+                -0.7452285701334466
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -6.16569080287813,
+                1.93669981069676,
+                -9.564068178276258
+            ],
+            "rotation": [
+                -0.2973325764728913,
+                -0.8275463506710242,
+                -0.4672486700264471,
+                -0.09186433920504122
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                6.099602601045106,
+                1.9870812673470137,
+                -5.42997669333853
+            ],
+            "rotation": [
+                -0.04750312794266598,
+                -0.056638709261084934,
+                -0.026507214303153975,
+                -0.996911669627148
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                3.91313219756462,
+                2.309617770510879,
+                -4.418527517253465
+            ],
+            "rotation": [
+                -0.5302224290598317,
+                0.5118383174275529,
+                0.5271789775856696,
+                0.4230461418409952
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                0.8344066160431751,
+                3.10600270920372,
+                -3.2888705383258063
+            ],
+            "rotation": [
+                -0.2520161705948035,
+                0.5310729998398306,
+                0.8088982666360475,
+                0.01152878280878593
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.253544361090176,
+                3.3373474809710966,
+                -6.852186204755004
+            ],
+            "rotation": [
+                -0.41446564686725834,
+                0.38319567414918015,
+                0.7344681249269226,
+                0.3767437807669701
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -1.3121715087114438,
+                1.023611264789134,
+                -3.6398426253466463
+            ],
+            "rotation": [
+                0.10381193308618225,
+                -0.7408715419039306,
+                0.66296339565552,
+                -0.028495209539589512
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                3.401772180037724,
+                2.518588772673407,
+                -5.701423912729743
+            ],
+            "rotation": [
+                -0.5043701951410539,
+                -0.0266425086127767,
+                -0.4618615677698249,
+                -0.7290986045833534
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.10254903779016988,
+                2.0621165981185356,
+                -4.663443668936297
+            ],
+            "rotation": [
+                0.5855456842370241,
+                -0.4669300236585249,
+                -0.23569140474653869,
+                0.6193239591734263
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -5.31262284327444,
+                0.28639912110333077,
+                -4.717110560471165
+            ],
+            "rotation": [
+                -0.42662675361331914,
+                0.43854866752380095,
+                0.5443440882681035,
+                0.5738938864302583
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                6.6048609707565,
+                1.3074593396326297,
+                -7.634992927739975
+            ],
+            "rotation": [
+                -0.4072192044540854,
+                0.7726195925299627,
+                0.4683684839967236,
+                -0.13365046936403582
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -0.7431940897898013,
+                0.6968611148183874,
+                -10.31838859485216
+            ],
+            "rotation": [
+                -0.11676148867747245,
+                -0.9288057322205254,
+                0.007738765931283146,
+                -0.3516059983247941
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "suqare_pillar",
+            "translation": [
+                -4.348184969244846,
+                1.108282138222763,
+                -4.938534682967575
+            ],
+            "rotation": [
+                -0.1969269028553275,
+                -0.9138939844407269,
+                -0.20307829215918144,
+                -0.2911645366258931
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        }
+    ],
+    "articulated_object_instances": [],
+    "user_custom": {
+        "bound": [
+            [
+                0,
+                -7,
+                0
+            ],
+            [
+                18,
+                7,
+                5.0
+            ]
+        ]
+    },
+    "navmesh_instance": "empty_stage_navmesh"
+}

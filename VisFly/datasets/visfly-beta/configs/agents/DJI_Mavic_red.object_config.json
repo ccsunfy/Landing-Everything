@@ -1,0 +1,13 @@
+{
+  "render_asset": "../../agents/DJI_Mavic_red.glb",
+  "collision_asset": "../../agents/DJI_Mavic_red.glb",
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "mass": 11,
+  "join_collision_meshes": true,
+  "scale":[1.0,1.0,1.0],
+  "semantic_id": 6
+}

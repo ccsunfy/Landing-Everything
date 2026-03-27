@@ -1,0 +1,25 @@
+{
+    "stage_instance": {
+        "template_name": "stages/garage_v1"
+    },
+    "default_lighting": "lighting/garage_v1_0",
+    "object_instances": [],
+    "articulated_object_instances": [],
+    "user_custom": {
+        "range": [
+            [
+                -7,
+                7
+            ],
+            [
+                0,
+                5.5
+            ],
+            [
+                -18,
+                1
+            ]
+        ]
+    },
+    "navmesh_instance": "empty_stage_navmesh"
+}

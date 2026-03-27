@@ -1,0 +1,126 @@
+{
+    "stage_instance": {
+        "template_name": "stages/box15_wall"
+    },
+    "default_lighting": "lighting/box15_0",
+    "object_instances": [
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -3.143904799688734,
+                0.0,
+                -4.617984406656197
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "square_pillar",
+            "translation": [
+                -10.148090687402622,
+                0.0,
+                -3.318936225401411
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "square_pillar",
+            "translation": [
+                8.681126531858492,
+                0.0,
+                -3.8186707156921518
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "round_pillar",
+            "translation": [
+                -6.962035066851456,
+                0.0,
+                -3.4020658598332134
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "square_pillar",
+            "translation": [
+                13.32521893458375,
+                0.0,
+                -4.030456874475367
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        },
+        {
+            "template_name": "square_pillar",
+            "translation": [
+                1.8779188893577938,
+                0.0,
+                -4.68363158518714
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "uniform_scale": 1.0,
+            "motion_type": "STATIC",
+            "translation_origin": "COM"
+        }
+    ],
+    "articulated_object_instances": [],
+    "user_custom": {
+        "bound": [
+            [
+                0,
+                -15,
+                0
+            ],
+            [
+                30,
+                15,
+                8.0
+            ]
+        ]
+    },
+    "navmesh_instance": "empty_stage_navmesh"
+}

@@ -32,6 +32,9 @@ __pycache__/
 
 # VisFly 
 VisFly/datasets/
+!VisFly/datasets/
+!VisFly/datasets/visfly-beta/
+!VisFly/datasets/visfly-beta/**
 VisFly/segment-anything-2/
 
 # exps/std: only upload landing-related parts

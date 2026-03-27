@@ -1,0 +1,12 @@
+{
+  "render_asset": "../../../objects/man_1.glb",
+  "collision_asset": "../../../objects/man_1.glb",
+  "mass": 0.5,
+  "COM": [
+    0,
+    0,
+    0
+  ],
+  "join_collision_meshes": false,
+  "semantic_id": 3
+}

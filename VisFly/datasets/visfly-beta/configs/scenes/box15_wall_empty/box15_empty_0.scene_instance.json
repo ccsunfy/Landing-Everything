@@ -1,0 +1,9 @@
+{
+    "stage_instance": {
+        "template_name": "stages/box15_wall"
+    },
+    "default_lighting": "lighting/box15_0",
+    "object_instances": [],
+    "articulated_object_instances": [],
+    "navmesh_instance": "empty_stage_navmesh"
+}
