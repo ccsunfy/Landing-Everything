@@ -1,86 +1,94 @@
 import os, sys
 import torch as th
+
 sys.path.append(os.getcwd())
-from diff_landing.envs.hoverEnv_1130 import HoverEnv
-# from diff_landing.envs.ObjectTrackingEnv import ObjectTrackingEnv
-from diff_landing.envs.VisualHoverEnv import VisualHoverEnv
-# from envs.TrackingEnv import AwareTrackEnv
-# from diff_landing.envs.VisualLandingEnv import VisualLandingEnv
+
+# Only environments and algorithms present in this repository (landingVisual / dynamicLanding + BPTT PPO SAC).
 from diff_landing.envs.VisualLandingEnv_random_land import VisualLandingEnv
-from diff_landing.envs.VisualLandingEnv_random_land_2_image import VisualLandingEnv2Image
-from diff_landing.envs.VisualLandingEnv_random_land_ppo import VisualLandingEnvPPO
-from diff_landing.envs.VisualLandingEnv_random_land_noise import VisualLandingEnvNoise
 from diff_landing.envs.DynamicLandingEnv import DynamicLandingEnv
-from diff_landing.envs.TrackingEnv import AwareTrackEnv2
-from diff_landing.envs.RacingEnv_lfx import RacingEnv2
-# from diff_landing.envs.RacingEnv import RacingEnv2
-from diff_landing.envs.TrackingEnv import TrackEnv
-from diff_landing.envs.demo3 import RacingEnv2 as demo3
-from diff_landing.envs.LandingEnv import LandingEnv
 from diff_landing.algorithms.BPTT import BPTT
-from diff_landing.algorithms.SHAC import SHAC
 from VisFly.utils.algorithms.PPO import PPO
-from diff_landing.algorithms.ABPT import ABPT
 from diff_landing.algorithms.SAC import SAC
-import sys
-import os
 import argparse
 from VisFly.utils.common import load_yaml_config
 from pathlib import Path
 
-# only for debugging
 th.autograd.set_detect_anomaly(False)
 
-def parse_args(): 
-    parser = argparse.ArgumentParser(description='Run experiments', add_help=False)
-    parser.add_argument('--comment', '-c', type=str, default="std")
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run experiments", add_help=False)
+    parser.add_argument("--comment", "-c", type=str, default="std")
     parser.add_argument("--train", "-t", type=int, default=1)
     parser.add_argument("--algorithm", "-a", type=str, default="BPTT")
-    parser.add_argument("--env", "-e", type=str, default="hovering")
+    parser.add_argument("--env", "-e", type=str, default="landingVisual")
     parser.add_argument("--seed", "-s", type=int, default=42)
-    parser.add_argument("--weight", "-w", type=str, default=None, )
-    parser.add_argument("--env_cfg", type=str, default=None, help="Env cfg file name or path, e.g. dynamicLanding_s1")
-    parser.add_argument("--curriculum", type=str, default=None, help="Comma-separated env cfg names/paths")
-    parser.add_argument("--stage_steps", type=str, default=None, help="Comma-separated timesteps per curriculum stage")
-    parser.add_argument("--stage_success", type=str, default=None, help="Comma-separated success-rate targets per stage, e.g. 0.55,0.70,0.85")
-    parser.add_argument("--check_steps", type=int, default=200000, help="Timesteps per curriculum success-rate check")
-    parser.add_argument("--min_success_samples", type=int, default=100, help="Minimum success samples before checking stage promotion")
+    parser.add_argument("--weight", "-w", type=str, default=None)
+    parser.add_argument(
+        "--env_cfg",
+        type=str,
+        default=None,
+        help="Env cfg file name or path, e.g. dynamicLanding_s1",
+    )
+    parser.add_argument(
+        "--curriculum",
+        type=str,
+        default=None,
+        help="Comma-separated env cfg names/paths",
+    )
+    parser.add_argument(
+        "--stage_steps",
+        type=str,
+        default=None,
+        help="Comma-separated timesteps per curriculum stage",
+    )
+    parser.add_argument(
+        "--stage_success",
+        type=str,
+        default=None,
+        help="Comma-separated success-rate targets per stage, e.g. 0.55,0.70,0.85",
+    )
+    parser.add_argument(
+        "--check_steps",
+        type=int,
+        default=200000,
+        help="Timesteps per curriculum success-rate check",
+    )
+    parser.add_argument(
+        "--min_success_samples",
+        type=int,
+        default=100,
+        help="Minimum success samples before checking stage promotion",
+    )
     return parser
 
+
 env_alias = {
-    "hovering": HoverEnv,
-    "hoveringVisual": VisualHoverEnv,
-    # "objTracking": ObjectTrackingEnv,
-    "awareTracking": AwareTrackEnv2,
     "landingVisual": VisualLandingEnv,
-    # "landingVisual": VisualLandingEnv2Image,
     "dynamicLanding": DynamicLandingEnv,
-    # "landingVisual": VisualLandingEnvNoise,
-    "racing": RacingEnv2,
-    "tracking": TrackEnv,
-    "landing":LandingEnv,
-    "demo3": demo3
 }
 
 alg_alias = {
     "BPTT": BPTT,
     "PPO": PPO,
-    "SHAC": SHAC,
-    "ABPT": ABPT,
-    "SAC": SAC
+    "SAC": SAC,
 }
 
 args = parse_args().parse_args()
 save_folder = os.path.dirname(os.path.abspath(sys.argv[0])) + f"/saved/{args.env}/"
-config = load_yaml_config(os.path.dirname(os.path.abspath(__file__)) + f'/alg_cfgs/{args.env}/{args.algorithm}.yaml')
+config = load_yaml_config(
+    os.path.dirname(os.path.abspath(__file__)) + f"/alg_cfgs/{args.env}/{args.algorithm}.yaml"
+)
+
 
 def resolve_env_cfg_path(env_cfg_arg):
     if env_cfg_arg is None:
-        return os.path.dirname(os.path.abspath(__file__)) + f'/env_cfgs/{args.env}.yaml'
+        return os.path.dirname(os.path.abspath(__file__)) + f"/env_cfgs/{args.env}.yaml"
     if os.path.isabs(env_cfg_arg) or "/" in env_cfg_arg:
         return env_cfg_arg
     cfg_name = env_cfg_arg if env_cfg_arg.endswith(".yaml") else f"{env_cfg_arg}.yaml"
-    return os.path.dirname(os.path.abspath(__file__)) + f'/env_cfgs/{cfg_name}'
+    return os.path.dirname(os.path.abspath(__file__)) + f"/env_cfgs/{cfg_name}"
+
 
 env_cfg_path = resolve_env_cfg_path(args.env_cfg)
 env_config = load_yaml_config(env_cfg_path)
@@ -88,11 +96,14 @@ env_config = load_yaml_config(env_cfg_path)
 if not args.train:
     env_config["eval_env"]["visual"] = True
 
+
 def latest_saved_zip():
-    matches = sorted(Path(save_folder).glob("*.zip"), key=lambda p: p.stat().st_mtime, reverse=True)
+    matches = sorted(
+        Path(save_folder).glob("*.zip"), key=lambda p: p.stat().st_mtime, reverse=True
+    )
     return str(matches[0]) if matches else None
 
-# if train mode, train the model
+
 if args.train:
     if args.curriculum:
         stage_cfgs = [s.strip() for s in args.curriculum.split(",") if s.strip()]
@@ -126,7 +137,7 @@ if args.train:
                     seed=args.seed,
                     comment=f"{args.comment}_s{i}",
                     save_path=save_folder,
-                    **config["algorithm"]
+                    **config["algorithm"],
                 )
             else:
                 weight_path = prev_weight if os.path.isabs(prev_weight) else save_folder + prev_weight
@@ -167,7 +178,9 @@ if args.train:
                         break
 
                 if not reached:
-                    print(f"[curriculum] Stage {i} reached max steps without meeting target success rate.")
+                    print(
+                        f"[curriculum] Stage {i} reached max steps without meeting target success rate."
+                    )
             model.save()
 
             saved_path = None
@@ -186,37 +199,24 @@ if args.train:
         print("[curriculum] Training finished.")
         sys.exit(0)
 
-    # env = env_alias[args.env](**env_config["env"])
     print("[run] Creating environment...")
-    env = env_alias[args.env](
-        **env_config["env"]
-    )
+    env = env_alias[args.env](**env_config["env"])
     print("[run] Environment created.")
     print(f"Algorithm: {args.algorithm}")
     print(f"Available algorithms: {list(alg_alias.keys())}")
     print(f"Selected algorithm type: {type(alg_alias[args.algorithm])}")
     print(f"Selected algorithm value: {alg_alias[args.algorithm]}")
-    if args.algorithm == "ABPT":
-        model = alg_alias[args.algorithm](
-            env=env,
-            seed=args.seed,
-            comment=args.comment,
-            env_kwargs=env_config["env"], # abpt
-            save_path=save_folder,
-            **config["algorithm"]
-        )
-    else:
-        # model = alg_alias[args.algorithm](env=env, seed=args.seed, comment=args.comment, save_path=save_folder, **config["algorithm"])
-        print("[run] Creating model...")
-        model = alg_alias[args.algorithm](
-            env=env,
-            seed=args.seed,
-            comment=args.comment,
-            save_path=save_folder,
-            **config["algorithm"]
-        )
-        print("[run] Model created.")
-        
+
+    print("[run] Creating model...")
+    model = alg_alias[args.algorithm](
+        env=env,
+        seed=args.seed,
+        comment=args.comment,
+        save_path=save_folder,
+        **config["algorithm"],
+    )
+    print("[run] Model created.")
+
     if args.weight is not None:
         weight_path = args.weight if os.path.isabs(args.weight) else save_folder + args.weight
         model = alg_alias[args.algorithm].load(weight_path, env=env)
@@ -227,10 +227,7 @@ if args.train:
     model.save()
 
 else:
-    eval_env = env_alias[args.env](
-        **env_config["eval_env"]
-    )
-    # eval/test branch: allow missing --weight and auto-load latest checkpoint
+    eval_env = env_alias[args.env](**env_config["eval_env"])
     if args.weight is None:
         weight_path = latest_saved_zip()
         if weight_path is None:
@@ -249,6 +246,6 @@ else:
     test_handle = landing_test(
         model=model,
         save_path=save_folder + "/test",
-        name=weight_name
+        name=weight_name,
     )
     test_handle.test(**config["test"])
